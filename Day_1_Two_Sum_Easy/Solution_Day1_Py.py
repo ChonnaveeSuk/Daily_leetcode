@@ -10,7 +10,7 @@ class Solution:
                 return [seen[complement], i]
             seen[num] = i
 
-"""
+
 if __name__ == "__main__":
     solver = Solution()
 
@@ -28,4 +28,3 @@ if __name__ == "__main__":
     # nums = [3,3], target = 6
     # Output: [0,1]
     print(solver.twoSum([3, 3], 6))  # [0, 1]
-"""
