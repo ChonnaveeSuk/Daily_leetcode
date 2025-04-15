@@ -18,12 +18,12 @@ class Solution(object):
                 return False  # invalid character
 
         return not stack
-
-# 🧪 ตัวอย่างทดสอบ
+"""
 if __name__ == "__main__":
     s = Solution()
-    print(s.isValid("()"))        # ✅ True
-    print(s.isValid("()[]{}"))    # ✅ True
-    print(s.isValid("(]"))        # ✅ False
-    print(s.isValid("([)]"))      # ✅ False
-    print(s.isValid("{[]}"))      # ✅ True
+    print(s.isValid("()"))        
+    print(s.isValid("()[]{}"))    
+    print(s.isValid("(]"))        
+    print(s.isValid("([)]"))      
+    print(s.isValid("{[]}"))      
+"""
